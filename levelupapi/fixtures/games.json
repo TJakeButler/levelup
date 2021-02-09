@@ -3,11 +3,33 @@
         "model": "levelupapi.game",
         "pk": 1,
         "fields": {
-            "title": "Here is a title",
+            "title": "Welcome To",
             "game_type": 1,
-            "number_of_players": 8,
+            "number_of_players": 4,
             "gamer": 1,
-            "description": "Here is a description"
+            "description": "As an architect in Welcome To..., you want to build the best new town in the United States of the 1950s by adding resources to a pool, hiring employees, and more."
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Settlers of Catan",
+            "game_type": 1,
+            "number_of_players": 4,
+            "gamer": 1,
+            "description": "Settlers of Catan is a combination of strategy and resource management. You need the right materials to build houses and roads and gain victory points. The luck of the die throw drives these resources and determines how many settlements and roads you can build, which in turn accrue more resources"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "game_type": 2,
+            "number_of_players": 5,
+            "gamer": 1,
+            "description": "Dungeons & Dragons is a fantasy tabletop role-playing game (RPG) originally designed by Gary Gygax and Dave Arneson. It was first published in 1974"
         }
     }
 ]
