@@ -5,8 +5,28 @@
         "fields": {
             "event_time": "2021-02-28T14:51:39.989Z",
             "game": 1,
-            "location": "Here is a location",
+            "location": "Capital Steps",
             "scheduler": 1
         }
-    }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "event_time": "2021-02-28T14:51:39.989Z",
+            "game": 2,
+            "location": "Five Points",
+            "scheduler": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "event_time": "2021-02-28T14:51:39.989Z",
+            "game": 3,
+            "location": "Parthenon",
+            "scheduler": 1
+        }
+    },
 ]
