@@ -27,10 +27,9 @@ class Games(ViewSet):
         # body of the request from the client.
         game = Game()
         game.title = request.data["title"]
-        game.maker = request.data["maker"]
         game.number_of_players = request.data["numberOfPlayers"]
-        game.skill_level = request.data["skillLevel"]
         game.gamer = gamer
+        game.description = request.data["description"]
         
 
         # Use the Django ORM to get the record from the database
@@ -86,9 +85,8 @@ class Games(ViewSet):
         # from the database whose primary key is `pk`
         game = Game.objects.get(pk=pk)
         game.title = request.data["title"]
-        game.maker = request.data["maker"]
         game.number_of_players = request.data["numberOfPlayers"]
-        game.skill_level = request.data["skillLevel"]
+        game.description = request.data["description"]
         game.gamer = gamer
 
         gametype = GameType.objects.get(pk=request.data["gameTypeId"])
